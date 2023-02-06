@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.6.1</version>
+            <version>7.4</version>
             <scope>test</scope>
         </dependency>
 
@@ -63,7 +63,19 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.6.1</version>
+            <scope>compile</scope>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.github.sskorol/test-data-supplier -->
+        <dependency>
+            <groupId>io.github.sskorol</groupId>
+            <artifactId>test-data-supplier</artifactId>
+            <version>1.9.2</version>
+        </dependency>
 
     </dependencies>
 

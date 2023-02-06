@@ -14,23 +14,11 @@ import java.lang.reflect.Method;
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeSuite
-    public void beforeSuite()
-    {
-        ExtentReport.initReports();
 
-    }
-
-    @AfterSuite
-    public void afterSuite()
-    {
-
-        ExtentReport.flushReports();
-    }
     @BeforeMethod
     public void setUp(Method method)
     {
-        ExtentReport.createTest(method.getName());
+
         Driver.initDriver();
     }
 
